@@ -13,9 +13,17 @@ Práctica cotidiana, constructiva y concreta que una persona puede adoptar dentr
 _Avoid_: Iniciativa, hábito, tarea, propuesta
 
 **Recurso**:
-Alternativa real, red paraguas, cooperativa, herramienta o guía de búsqueda en España que permite llevar a cabo una **Acción**.
-_Avoid_: Enlace, entidad, directorio, proveedor
+Alternativa real, red paraguas, cooperativa, catálogo o herramienta externa que permite llevar a cabo una **Acción** en uno o varios **Territorios**.
+_Avoid_: Enlace, entidad, directorio, proveedor, guía local
 
 **Territorio**:
 Alcance geográfico en el que opera o es relevante un **Recurso** dentro de España (estatal o una comunidad autónoma concreta).
 _Avoid_: Ámbito territorial, ámbito geográfico, región, zona, cobertura
+
+**Atajo**:
+Acceso rápido en portada basado en una situación o sustitución concreta que enlaza directamente a una **Acción**.
+_Avoid_: Escenario, filtro rápido, ruta, bloque de portada
+
+**Guía local**:
+Bloque editorial propio dentro de una **Acción** («Cómo buscar cerca de ti») con pasos prácticos para encontrar alternativas en tu municipio o provincia cuando no existe un **Recurso** externo fiable en un **Territorio**.
+_Avoid_: Recurso propio, directorio local, ficha local
