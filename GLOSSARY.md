@@ -15,3 +15,7 @@ _Avoid_: Iniciativa, hábito, tarea, propuesta
 **Recurso**:
 Alternativa real, red paraguas, cooperativa, herramienta o guía de búsqueda en España que permite llevar a cabo una **Acción**.
 _Avoid_: Enlace, entidad, directorio, proveedor
+
+**Territorio**:
+Alcance geográfico en el que opera o es relevante un **Recurso** dentro de España (estatal o una comunidad autónoma concreta).
+_Avoid_: Ámbito territorial, ámbito geográfico, región, zona, cobertura
