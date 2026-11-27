@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PROTOTIPO · Guía de cambio social cotidiano (4 variantes UI)</title>
+    <!--
+      PROTOTIPO DESECHABLE — Wayfinder #8
+      Plan: Variantes estructuralmente distintas de la portada, índice de Ámbitos,
+      ficha de Acción completa y selector ES/CA/EU/GL, conmutables vía ?variant=A|B|C|D
+      y barra flotante inferior.
+      - Variante A: Editorial de referencia (prensa/almanaque, retícula con filetes, TOC lateral en ficha)
+      - Variante B: Manual con índice lateral (sidebar persistente + Territorio global, Atajos primero, sin grid de tarjetas)
+      - Variante C: Enfoque paso a paso (triage interactivo en portada, bandas por pregunta cotidiana, lectura en dos tiempos)
+      - Variante D: Síntesis recomendada (estética editorial A + portada guiada C + acordeones/metadatos B + Guía local diferenciada)
+    -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="app" class="proto-stage" aria-live="polite"></div>
+
+    <!-- Floating Prototype Switcher (NOT part of the evaluated design; hidden in production) -->
+    <aside class="proto-bar" role="region" aria-label="Selector de variante del prototipo">
+      <div class="proto-bar__main">
+        <span class="proto-bar__badge">PROTOTIPO #8</span>
+        <button type="button" class="proto-bar__arrow" id="proto-prev" aria-label="Variante anterior (Flecha izquierda)" title="Variante anterior (←)">
+          ←
+        </button>
+        <div class="proto-bar__label" id="proto-variant-label">A · Editorial de referencia</div>
+        <button type="button" class="proto-bar__arrow" id="proto-next" aria-label="Siguiente variante (Flecha derecha)" title="Siguiente variante (→)">
+          →
+        </button>
+        <span class="proto-bar__divider" aria-hidden="true"></span>
+        <button type="button" class="proto-bar__toggle" id="proto-viewport-toggle" title="Alternar vista previa móvil (390px) y escritorio">
+          📱 390px
+        </button>
+        <button type="button" class="proto-bar__toggle" id="proto-state-toggle" aria-expanded="false" title="Ver estado simulado (ruta, idioma, territorio)">
+          Estado
+        </button>
+      </div>
+      <div class="proto-bar__state" id="proto-state-panel" hidden></div>
+    </aside>
+
+    <script src="./data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
